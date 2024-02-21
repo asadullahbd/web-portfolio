@@ -15,11 +15,12 @@ p{
     color: dimgray;
 }
 
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
 .half-width{
+    box-sizing: border-box;
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -29,6 +30,7 @@ p{
 .half-width img{
     width: 100%;
 }
+
 
 .top-banner{
     background-image: url("./images/top-banner.png");
@@ -53,4 +55,11 @@ section{
     background-image: url("./images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+/* experience area  */
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
 }
